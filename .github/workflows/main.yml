@@ -24,7 +24,7 @@ env:
   BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
   TARGET: bootimage
   ZIP_NAME: TWRP_OSCAR_A12.1-Stable_V2.zip
-  TZ: Asia/Kolkata
+  TZ: Asia/Dhaka
 
 jobs:
   build:
