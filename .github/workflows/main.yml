@@ -18,12 +18,12 @@ on:
 env:
   MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1
   DEVICE: oscar
-  DT_LINK: https://github.com/Spector0/Device_Oneplus_Oscar_TWRP -b Alpha_1
+  DT_LINK: https://github.com/Spector0/Device_Oneplus_Oscar_TWRP -b Stable_V2
   DT_PATH: device/oneplus/oscar
   CHAT_ID: ${{ secrets.TEST_CHAT_ID }}
   BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
   TARGET: bootimage
-  ZIP_NAME: TWRP_OSCAR_A12.1-ALPAHA.zip
+  ZIP_NAME: TWRP_OSCAR_A12.1-Stable_V2.zip
   TZ: Asia/Kolkata
 
 jobs:
